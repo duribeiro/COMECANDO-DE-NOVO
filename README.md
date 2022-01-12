@@ -1,6 +1,23 @@
 # COMEÇANDO DE NOVO
 Um repositorio com instrução passo a passo do que devo instalar quando trocar de distro
 
+#Terminal
+
+Vamos instalar o ZSH
+
+```
+sudo apt install zsh
+```
+Vamos definir o zsh como nosso terminal padrão, para isso precisamos editar o arquivo `/etc/passwd`, uma posssivel maneira é com o comando.
+
+```
+sudo gedit /etc/passwd
+```
+
+Procure pela linha do seu usuário, ela deve estar ao final do arquivo, no meu caso na linha 45, mas o seu pode estar em outra, então olhe com calma.
+
+Reparece que existe uma informação logo ao final da linha **”:/bin/bash"**, tudo o que temos a fazer aqui é trocar a palavra **“bash”** por **“zsh“**. Quando reiniciar as configurações farão efeito.
+
 # Programas
 
 Antes de instalar qualquer programa é bom dar uma atualizada no sistema.

@@ -6,11 +6,14 @@ Um repositorio com instrução passo a passo do que devo instalar quando trocar 
 Antes de instalar qualquer programa é bom dar uma atualizada no sistema.
 
 ```
-sudo apt install update; sudo apt install upgrade -y
+sudo apt update; sudo apt upgrade -y
 ```
 
 ## Zoom
 https://zoom.us/download
+
+## Slack
+https://slack.com/intl/pt-br/downloads/linux
 
 ## Chrome
 https://www.google.com/intl/pt-BR/chrome/

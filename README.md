@@ -1,9 +1,11 @@
 # COMEÇANDO DE NOVO
-Um repositorio com instrução passo a passo do que devo instalar quando trocar de distro
+Um repositório com instrução passo a passo do que devo instalar quando trocar de distro.
 
-#Terminal
+> OBS: Considerando que meu `/home` está em uma partição separada e compartilhada entre as distros, apenas as configurações abaixo são necessárias.
 
-Vamos instalar o ZSH
+# Terminal
+
+### Vamos instalar o ZSH
 
 ```
 sudo apt install zsh
@@ -17,6 +19,20 @@ sudo gedit /etc/passwd
 Procure pela linha do seu usuário, ela deve estar ao final do arquivo, no meu caso na linha 45, mas o seu pode estar em outra, então olhe com calma.
 
 Reparece que existe uma informação logo ao final da linha **”:/bin/bash"**, tudo o que temos a fazer aqui é trocar a palavra **“bash”** por **“zsh“**. Quando reiniciar as configurações farão efeito.
+
+### Instalando o LSD (LSDeluxe)
+
+[Esse](https://github.com/Peltoche/lsd#configuration) é o repositório do **LSD**. E [nesse link](https://github.com/Peltoche/lsd/releases) estão as versões para download. Se estiver no Ubuntu ou em uma distro derivada dele procure por algo que se pareça com `lsd-musl_0.20.1_amd64.deb`.
+
+Apos fazer o download executar o seguinte comando de terminal no local onde o arquivo foi baixado.\
+`sudo dpkg -i <nome-do-arquivo>`.
+
+Exemplo:
+```
+sudo dpkg -i lsd-musl_0.20.1_amd64.deb
+```
+
+Pronto, os comando do lsd já estarão funcionando.
 
 # Programas
 

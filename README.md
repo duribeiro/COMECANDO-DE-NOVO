@@ -34,6 +34,14 @@ sudo dpkg -i lsd-musl_0.20.1_amd64.deb
 
 Pronto, os comando do lsd já estarão funcionando.
 
+### Git
+
+Abra o terminal e digite
+
+```
+sudo apt install git-all
+```
+
 # Programas
 
 Antes de instalar qualquer programa é bom dar uma atualizada no sistema.

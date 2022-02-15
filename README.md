@@ -71,7 +71,7 @@ exemplo
  sudo dpkg -i code_1.63.2-1639562499_amd64.deb
  ```
 
-# NODE COM NVM
+# Node com NVM
 
 Baixando o repositório e instalando o nvm
 

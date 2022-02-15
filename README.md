@@ -70,4 +70,20 @@ exemplo
  ```
  sudo dpkg -i code_1.63.2-1639562499_amd64.deb
  ```
- 
+
+# NODE COM NVM
+
+Baixando o repositório e instalando o nvm
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+
+> Feche o terminal e abra novamente antes de continuar.
+
+Instalando o Node na ultima versão estável LTS
+
+```
+nvm install --lts
+```
+

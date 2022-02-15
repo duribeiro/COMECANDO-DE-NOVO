@@ -34,13 +34,9 @@ sudo dpkg -i lsd-musl_0.20.1_amd64.deb
 
 Pronto, os comando do lsd já estarão funcionando.
 
-### Git
+# Git e GitHub
 
-Abra o terminal e digite
-
-```
-sudo apt install git-all
-```
+Siga esse repo https://github.com/duribeiro/Git-GitHub-config#gerando-uma-nova-chave-ssh
 
 # Programas
 
@@ -86,4 +82,3 @@ Instalando o Node na ultima versão estável LTS
 ```
 nvm install --lts
 ```
-
